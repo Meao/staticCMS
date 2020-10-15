@@ -1,0 +1,11 @@
+[project]
+name = PortF
+url_style = absolute
+
+[servers.ghpages]
+name = Prod
+target = ghpages+https://meao:key@meao.github.io/staticCMS/
+
+[servers.ghdeploy]
+name = Dev
+target = ghpages+https://meao:key@Meao/staticCMS
